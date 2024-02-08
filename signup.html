@@ -19,34 +19,33 @@
 <body>
   <section class="login ps-3 pe-3" style="width: 100%;">
     <div>
-      <h1 class="fw-bold">Login</h1>
-      <p>Securely login to your account</p>
+      <h1 class="fw-bold">Create Account</h1>
+      <p>Securely Create your account</p>
       <div class="form-floating mb-3">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>Brand Owner</option>
-          <option value="1">Brand Pilot Sales Man</option>
-          <option value="2">Distributor</option>
-          <option value="3">Distributor Pilot Sales Man </option>
-          <option value="4">Retailer (Shop)</option>
-        </select>
-        <label for="floatingSelect">Select Type of Login</label>
+        <input type="text" class="form-control" id="floatingInput" placeholder="Enter full name">
+        <label for="floatingInput"><i class="fa-solid fa-user"></i> Full Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword"><i class="fa-solid fa-envelope"></i> Email Address</label>
       </div>
       <div class="form-floating mb-3">
         <input type="number" class="form-control" id="floatingInput" placeholder="Enter Number">
         <label for="floatingInput"><i class="fa-solid fa-phone"></i> Mobile Number</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword"><i class="fa-solid fa-lock"></i> Password</label>
+        <input type="text" class="form-control" id="floatingInput" placeholder="Enter Brand Name">
+        <label for="floatingInput"><i class="fa-solid fa-building"></i> Brand Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Set Password">
+        <label for="floatingInput"><i class="fa-solid fa-lock"></i> Set Password</label>
       </div>
       <div class="bttn text-center mb-3" style="width: 100%;">
-        <a href="#" class="btn btn-primary" style="width: 100%; background: rgba(27, 154, 179, 1); padding: 12px 0px; border: 0; font-size: 20px;">Login</a>
-      </div>
-      <div class="text-center mb-3">
-        <a href="#" style="color: rgba(27, 154, 179, 1);">Fogot Password</a>
+        <a href="#" class="btn btn-primary" style="width: 100%; background: rgba(27, 154, 179, 1); padding: 12px 0px; border: 0; font-size: 20px;">Create</a>
       </div>
       <div class="text-center">
-        <h6>Create An Account <a href="./signup.html" style="color: rgba(27, 154, 179, 1);"> Sign Up</a></h6>
+        <h6>Already have an account <a href="./home.html" style="color: rgba(27, 154, 179, 1);"> Back to login</a></h6>
       </div>
     </div>
   </section>
