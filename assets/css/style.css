@@ -130,3 +130,9 @@
 .navigation ul li:nth-child(5).active~.indicator {
     transform: translateX(calc(70px * 4));
 }
+.list_of_driver ul li{
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
