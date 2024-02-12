@@ -137,16 +137,8 @@
     border-radius: 8px;
 }
 
-#distributors{
-    display: none;
-}
-#shops{
-    display: block;
-}
-#shop_cat{
-    background-color: rgb(19, 109, 128);
-}
-#distributor_cat{
+
+#distribut_cat{
     background-color: rgba(27, 154, 179, 1);
 }
 #sales_cat{
@@ -161,4 +153,7 @@
 }
 #pilot{
     display: block;
+}
+#distri{
+    display: none;
 }
