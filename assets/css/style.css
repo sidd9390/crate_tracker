@@ -149,3 +149,16 @@
 #distributor_cat{
     background-color: rgba(27, 154, 179, 1);
 }
+#sales_cat{
+    background-color: rgb(19, 109, 128);
+}
+#retailer_cat{
+    background-color: rgba(27, 154, 179, 1);
+}
+
+#retail{
+    display: none;
+}
+#pilot{
+    display: block;
+}
