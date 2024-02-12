@@ -136,3 +136,16 @@
     padding: 10px;
     border-radius: 8px;
 }
+
+#distributors{
+    display: none;
+}
+#shops{
+    display: block;
+}
+#shop_cat{
+    background-color: rgb(19, 109, 128);
+}
+#distributor_cat{
+    background-color: rgba(27, 154, 179, 1);
+}
